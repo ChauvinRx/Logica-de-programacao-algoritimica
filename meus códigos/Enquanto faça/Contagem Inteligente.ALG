@@ -1,4 +1,4 @@
-Algoritmo "Contador"
+Algoritmo "Contagem Inteligente"
 Var
    I, F: inteiro
 Inicio

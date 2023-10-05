@@ -1,9 +1,9 @@
 algoritmo "13- Aumento_Salario"
 var
-   salario, aumento: real
+   salario, promocao: real
 inicio
-      Escreval("Digite o seu sal·rio atual: ")
+      Escreval("Digite o seu sal√°rio atual: ")
       leia(salario)
-      aumento <- salario + (salario * 0.15)
-      Escreva("O seu sal·rio de R$", salario:0:2, " com um aumento de 15% ser· de R$", aumento:0:2)
+      promocao <- salario + (salario * 0.15)
+      Escreva("O seu sal√°rio de R$", salario:0:2, " com um aumento de 15% ser√° de R$", promocao:0:2)
 fimalgoritmo

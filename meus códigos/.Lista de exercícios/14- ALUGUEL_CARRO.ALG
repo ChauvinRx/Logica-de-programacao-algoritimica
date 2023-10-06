@@ -2,12 +2,12 @@ algoritmo "14- Aluguel_Carro"
 var
    kmPercorridos, precoPorKm, diasAlugados, precoPorDia, precoTotal: real
 inicio
-      Escreval("Quantos Km foram percorridos?")
+      Escreval("Quantos quil√¥metros foram percorridos?")
       leia(KmPercorridos)
       Escreval("Foram quantos dias de aluguel?")
       leia(diasAlugados)
                         precoPorKm <- 0.20
                         precoPorDia <- 90.00
       precoTotal <- (kmPercorridos * precoPorKm) + (diasAlugados * precoPorDia)
-      Escreval("O preÁo total a ser pago È: ", precoTotal:0:2)
+      Escreval("O pre√ßo total a ser pago √©: ", precoTotal:0:2)
 fimalgoritmo

@@ -8,7 +8,7 @@ inicio
       leia(AnoNasc)
       idade <- AnoAtual - AnoNasc
             Se (idade >= 18) entao
-            Escreval("O usuário tem ", idade, " anos e está apto para votar)
+            Escreval("O usuário tem ", idade, " anos e está apto para votar")
             senao
                  falta <- 18 - idade
                  Escreval("Falta ", falta, " anos para atingir idade mínima para votar")

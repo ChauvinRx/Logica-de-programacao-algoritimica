@@ -1,16 +1,16 @@
-algoritmo "18- Idade_Mínima_Votar"
+algoritmo "18- Idade_MÃ­nima_Votar"
 var
    AnoAtual, AnoNasc, idade, falta: inteiro
 inicio
       Escreval("Digite o ano atual: ")
       leia(AnoAtual)
-      Escreval("Digite o ano em que ano você nasceu: ")
+      Escreval("Digite o ano em que ano vocÃª nasceu: ")
       leia(AnoNasc)
       idade <- AnoAtual - AnoNasc
             Se (idade >= 18) entao
-            Escreval("Idade minima para votar alcançada")
+            Escreval("O usuÃ¡rio tem ", idade, " anos e estÃ¡ apto para votar)
             senao
                  falta <- 18 - idade
-                 Escreval("Falta ", falta, " anos para atingir idade mínima para votar")
+                 Escreval("Falta ", falta, " anos para atingir idade mÃ­nima para votar")
             FimSe
 fimalgoritmo

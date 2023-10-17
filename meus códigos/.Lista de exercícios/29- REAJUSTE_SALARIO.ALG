@@ -5,24 +5,30 @@ Algoritmo "29- Reajuste_Salario"
         anosNaEmpresa: inteiro
 
 inicio
-        Escreval("Digite o nome do funcion�rio: ")
+        Escreval("Digite o nome do funcionário: ")
         Leia(nome)
 
-        Escreval("Digite o sal�rio do funcion�rio: R$ ")
+        Escreval("Digite o salário do funcionário: R$ ")
         Leia(salario)
 
-        Escreval("Digite quantos anos o funcion�rio trabalha na empresa: ")
+        Escreval("Digite quantos anos o funcionário trabalha na empresa: ")
         Leia(anosNaEmpresa)
 
-        Se (anosNaEmpresa <= 3) Ent�o
-            novoSalario <- salario + (salario * 0.03)
-        Sen�o Se (anosNaEmpresa > 3 E anosNaEmpresa <= 10) Ent�o
-            novoSalario <- salario + (salario * 0.125)
-        Sen�o
-            novoSalario <- salario + (salario * 0.20)
+        Se (anosNaEmpresa <= 3) Então
+            novoSalario <- salario + salario * 0.03
+        Senão
+             Se (anosNaEmpresa > 3) e (anosNaEmpresa <= 10) Então
+             novoSalario <- salario + (salario * 0.125)
+             Senão
+             novoSalario <- salario + (salario * 0.20)
+             FimSe
         FimSe
 
-        Escreval("Funcion�rio: ", nome)
-        Escreval("Novo sal�rio: R$ ", novoSalario)
+        Escreval("Funcionário: ", nome)
+        Escreval("Novo salário: R$ ", novoSalario)
+
+Fimalgoritmo
+        Escreval("Funcionário: ", nome)
+        Escreval("Novo salário: R$ ", novoSalario)
 
 Fimalgoritmo

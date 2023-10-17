@@ -1,17 +1,22 @@
-algoritmo "27- Calcular_Média"
+algoritmo "27- Calcular_MÃ©dia"
 var
    nota1, nota2, media: real
 inicio
-      Escreval("Digite a 1° nota: ")
+      Escreval("Digite a 1Â° nota: ")
       leia(nota1)
-      Escreval("Digite a 2° nota: ")
+      Escreval("Digite a 2Â° nota: ")
       leia(nota2)
       media <- (nota1 + nota2) / 2
-      Se ( media <= 4.9) entao
+      
+      Escreva(" A mÃ©dia foi: ",media, " e a situaÃ§Ã£o atual Ã©: ")
+      
+      Se ( media < 5) entao
       Escreval("REPROVADO")
-      senao se ( media > 4.9 e < 7) entao
-      Escreval("RECUPERAÇÃO")
       senao
+           Se (media >= 5) e (media < 7) entao
+           Escreval("RECUPERAÃ‡ÃƒO")
+           senao
            Escreval("APROVADO")
+           FimSe
       FimSe
 fimalgoritmo
